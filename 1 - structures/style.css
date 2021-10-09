@@ -1,0 +1,8 @@
+:root {
+  --color-golden-brown: #ffcc47;
+}
+
+.container-lg {
+  background-color: var(--color-golden-brown);
+  height: 100%;
+}

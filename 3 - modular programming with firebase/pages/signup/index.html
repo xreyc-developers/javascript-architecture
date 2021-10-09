@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    
+    <header>
+        <span><b>Blog Page</b></span>
+    </header>
+
+    <section>
+        <div class="row">
+            <!--CURRENT BLOG-->
+            <div class="col-8 col-md-8 col-sm-12 card">
+                <h3 id="blog_title">SIGNUP</h3>
+                <!--SIGNUP FORM-->
+                <form id="signupForm">
+                    <div class="form-input-wrap">
+                        <input type="text" name="name" placeholder="Name"/>
+                    </div>
+                    <div class="form-input-wrap">
+                        <input type="text" name="email" placeholder="Email"/>
+                    </div>
+                    <div class="form-input-wrap">
+                        <input type="password" name="password" placeholder="Password"/>
+                    </div>
+                    <div class="form-input-wrap">
+                        <input type="password" name="confirm_password" placeholder="Confirm Password"/>
+                    </div>
+                    <div class="form-input-wrap">
+                        <input type="text" name="phone_number" placeholder="Phone Number"/>
+                    </div>
+                    <div class="form-input-wrap">
+                        <textarea type="text" name="address" placeholder="Address"></textarea>
+                    </div>
+                    <div class="form-input-wrap">
+                        <input id="signupBtn" type="submit" value="Signup"/>
+                    </div>
+                </form>
+            </div>
+        </div>        
+    </section>
+
+
+    <div id="loader1" class="loader">
+        <div class="loader-content">Loading...</div>
+    </div>
+
+    <!--SCRIPTS-->
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

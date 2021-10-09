@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    
+    <header>
+        <span><b>Blog Page</b></span>
+    </header>
+
+    <section>
+        <div class="row">
+            <!--CURRENT BLOG-->
+            <div class="col-8 col-md-8 col-sm-12 card">
+                <h3 id="blog_title">LOGIN</h3>
+                <!--SIGNUP FORM-->
+                <form id="loginForm">
+                    <div class="form-input-wrap">
+                        <input type="text" name="email" placeholder="Email"/>
+                    </div>
+                    <div class="form-input-wrap">
+                        <input type="password" name="password" placeholder="Password"/>
+                    </div>
+                    <div class="form-input-wrap">
+                        <input id="loginBtn" type="submit" value="Login"/>
+                    </div>
+                </form>
+            </div>
+        </div>        
+    </section>
+
+
+    <div id="loader1" class="loader">
+        <div class="loader-content">Loading...</div>
+    </div>
+
+    <!--SCRIPTS-->
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
